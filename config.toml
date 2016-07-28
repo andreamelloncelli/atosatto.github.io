@@ -1,3 +1,39 @@
-baseurl = "http://www.tosatto.me/"
+baseurl = "https://www.tosatto.me/"
 languageCode = "en-us"
 title = "Andrea Tosatto"
+theme = "detox"
+canonifyurls = true
+pygmentsuseclasses = true
+
+# Menu Customization
+SectionPagesMenu = "main"
+[[menu.main]]
+   name = "blog"
+   weight = 10
+   identifier = "blog"  # this must match the section name
+   url = "/blog/"
+[[menu.main]]
+  name = "talks"
+  weight = 20
+  identifier = "talks"  # this must match the section name
+  url = "/talks/"
+[[menu.main]]
+    name = "code"
+    weight = 30
+    url = "//github.com/atosatto"
+    hrefTargetBlank = true  # open link in new tab
+
+[blackfriday]
+hrefTargetBlank = true  # open links in new tab
+
+[permalinks]
+blog = "blog/:slug/"
+
+[params]
+description = "Thoughts and stories from a f***ing nerd in love with automation"
+twitter_name = "_hilbert_"
+custom_css = [
+  "/css/simplegrid.css",  # see http://thisisdallas.github.io/Simple-Grid/
+  "/css/navbar.css",
+  "/css/custom.css"
+] # relative to public directory
