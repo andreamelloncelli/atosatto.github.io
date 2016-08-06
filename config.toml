@@ -30,8 +30,9 @@ hrefTargetBlank = true  # open links in new tab
 blog = "blog/:slug/"
 
 [params]
-description = "Thoughts and stories from a f***ing nerd in love with automation"
+description  = "Thoughts and stories from a f***ing nerd in love with automation"
 twitter_name = "_hilbert_"
+github_name  = "atosatto"
 custom_css = [
   "/css/simplegrid.css",  # see http://thisisdallas.github.io/Simple-Grid/
   "/css/navbar.css",

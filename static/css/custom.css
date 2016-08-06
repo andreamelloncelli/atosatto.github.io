@@ -8,6 +8,12 @@ p {
   font-size: 17px;
 }
 
+/* Footer Tooltips */
+
+.tooltip {
+  padding: 0.5em;
+}
+
 /* Site Header */
 
 #site-header {
