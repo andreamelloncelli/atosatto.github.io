@@ -14,6 +14,20 @@ a.post-tag:hover {
   border-bottom: 1px solid;
 }
 
+/* Talks Meta */
+ul.talk-meta {
+  list-style: none;
+}
+
+ul.talk-meta i {
+  margin-right: 5px;
+}
+
+.talk-meta time {
+  color: #333333;
+  font-weight: bold
+}
+
 /* Footer Tooltips */
 
 .tooltip {

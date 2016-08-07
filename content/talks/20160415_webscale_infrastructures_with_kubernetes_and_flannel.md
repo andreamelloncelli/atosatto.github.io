@@ -7,6 +7,7 @@ event    = "1st ContainerDay - Verona"
 website  = "http://2016.containerday.it/"
 location = "Hotel San Marco, Via Baldassarre Longhena, 42, Verona, Italy"
 slides   = "http://www.slideshare.net/purpleocean/web-scale-infrastructures-with-kubernetes-and-flannel"
+code     = "https://github.com/atosatto/presentation-webscalek8s"
 video    = "https://vimeo.com/166626308"
 tags     = [ "docker", "kubernetes", "containerday", "talk" ]
 +++

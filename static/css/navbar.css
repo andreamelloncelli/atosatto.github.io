@@ -14,6 +14,7 @@ nav.blog-navigation ul {
   display: -ms-inline-flexbox;
   display: -ms-inline-flex;
   display: inline-flex;
+  padding-left: 0px;
 }
 
 nav.blog-navigation ul a {

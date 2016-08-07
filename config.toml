@@ -9,19 +9,19 @@ pygmentsuseclasses = true
 SectionPagesMenu = "main"
 [[menu.main]]
    name = "blog"
-   weight = 10
+   weight = -20
    identifier = "blog"  # this must match the section name
    url = "/blog/"
 [[menu.main]]
   name = "talks"
-  weight = 20
+  weight = -10
   identifier = "talks"  # this must match the section name
   url = "/talks/"
-[[menu.main]]
-  name = "code"
-  weight = 30
-  url = "//github.com/atosatto"
-  hrefTargetBlank = true  # open link in new tab
+# [[menu.main]]
+#   name = "code"
+#   weight = 30
+#   url = "//github.com/atosatto"
+#   hrefTargetBlank = true  # open link in new tab
 
 [blackfriday]
   hrefTargetBlank = true  # open links in new tab
