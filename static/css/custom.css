@@ -8,6 +8,12 @@ p {
   font-size: 17px;
 }
 
+/* Tags */
+
+a.post-tag:hover {
+  border-bottom: 1px solid;
+}
+
 /* Footer Tooltips */
 
 .tooltip {
@@ -24,8 +30,8 @@ p {
 }
 
 article {
-    margin-top: 9em;
-    margin-bottom: 9em;
+    margin-top: 7em;
+    margin-bottom: 7em;
 }
 
 @media (max-width: 800px){
@@ -34,8 +40,8 @@ article {
   }
 
   article {
-      margin-top: 7em !important;
-      margin-bottom: 7em !important;
+      margin-top: 5em !important;
+      margin-bottom: 5em !important;
   }
 }
 

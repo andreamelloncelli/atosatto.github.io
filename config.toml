@@ -18,23 +18,27 @@ SectionPagesMenu = "main"
   identifier = "talks"  # this must match the section name
   url = "/talks/"
 [[menu.main]]
-    name = "code"
-    weight = 30
-    url = "//github.com/atosatto"
-    hrefTargetBlank = true  # open link in new tab
+  name = "code"
+  weight = 30
+  url = "//github.com/atosatto"
+  hrefTargetBlank = true  # open link in new tab
 
 [blackfriday]
-hrefTargetBlank = true  # open links in new tab
+  hrefTargetBlank = true  # open links in new tab
 
 [permalinks]
-blog = "blog/:slug/"
+  talks = "talks/:slug/"
+
+[taxonomies]
+  tag = "tags"
 
 [params]
-description  = "Thoughts and stories from a f***ing nerd in love with automation"
-twitter_name = "_hilbert_"
-github_name  = "atosatto"
-custom_css = [
-  "/css/simplegrid.css",  # see http://thisisdallas.github.io/Simple-Grid/
-  "/css/navbar.css",
-  "/css/custom.css"
-] # relative to public directory
+  author       = "Andrea Tosatto"
+  description  = "Thoughts and stories from a f***ing nerd in love with automation"
+  twitter_name = "_hilbert_"
+  github_name  = "atosatto"
+  custom_css = [
+    "/css/simplegrid.css",  # see http://thisisdallas.github.io/Simple-Grid/
+    "/css/navbar.css",
+    "/css/custom.css"
+  ] # relative to public directory
