@@ -38,7 +38,7 @@ build:
 	@echo "\033[0;32mBuilding the website...\033[0m"
 	@hugo
 
-deploy: build
+deploy:
 	@echo "\033[0;32mDeploying updates to Github...\033[0m"
 	git subtree push --prefix=public $(REPO) $(DEPLOY_BRANCH)
 
