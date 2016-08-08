@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="Andrea Tosatto">
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@https://twitter.com/_hilbert_">
+        <meta name="twitter:creator" content="@https://twitter.com/_hilbert_">
+        <meta name="twitter:domain" content="https://www.tosatto.me/">
+        
+        <meta property="og:site_name" content="Andrea Tosatto">
+        <meta property="og:title" content="Andrea Tosatto">
+        <meta property="og:url" content="https://www.tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/">
+        <meta property="og:description" content="Thoughts and stories from a f***ing nerd in love with automation">
+        
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="Andrea Tosatto" />
+        <meta property="og:article:published_time" content="2015-09-22T11:20:00&#43;02:00" />
+        
+        <meta name="generator" content="Hugo 0.16" />
+
+        <title>Using Docker for Fast and Easy Testing of MariaDB and MaxScale &middot; Andrea Tosatto </title>
+        <link rel="canonical" href="https://www.tosatto.me/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
+        <link rel="stylesheet" type='text/css' href="https://www.tosatto.me//css/main.css"/>
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://www.tosatto.me//css/simplegrid.css">
+        
+        <link rel="stylesheet" href="https://www.tosatto.me//css/navbar.css">
+        
+        <link rel="stylesheet" href="https://www.tosatto.me//css/custom.css">
+        
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        
+    </head>
+
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+        <div class="container">
+            <a href="https://www.tosatto.me/" alt="Andrea Tosatto">
+              <h1 class="blog-title heading">Andrea Tosatto</h1>
+            </a>
+            <nav class="blog-navigation">
+              <ul>
+              
+              
+                <a class="navigation-item" href="https://www.tosatto.me/blog/">
+                  <li>blog</li>
+                </a>
+              
+                <a class="navigation-item active" href="https://www.tosatto.me/talks/">
+                  <li>talks</li>
+                </a>
+              
+                <a class="navigation-item" href="https://www.tosatto.me/about/">
+                  <li>About</li>
+                </a>
+              
+              </ul>
+            </nav>
+        </div>
+    </header>
+
+<main class="content" role="main">
+	<div class="container">
+		<article class="talk">
+	<header class="post-header">
+		<h3 class="p-post-title">Using Docker for Fast and Easy Testing of MariaDB and MaxScale</h3>
+	</header>
+
+	<section class="post-content">
+		<hr />
+
+<p>The ability to replicate the production environment in an isolated
+testing environment is a key factor for the success of any
+infrastructure (major or minor) component upgrade or replacement.</p>
+
+<p>Before introducing a new technology and deploying components
+into critical infrastructures, the maintainers must have a very deep
+knowledge of them.</p>
+
+<p>To reach this expertise it is really important to build and re-deploy
+the testing environment in an easy and fast way.</p>
+
+<p>In Colt Engine we experienced this situation when we decided to
+migrate all our hosting customers from MySQL 5.1 to MariaDB 10.</p>
+
+<p>During this presentation we will show how we used Docker
+and docker-compose to replicate our production infrastructure in a testing environment and how we used these technologies to dramatically increase our experience and knowledge around MaxScale.
+This speech will presents several real examples of different MaxScale
+use cases ranging from authentication to read-write splitting and
+about how we automated the provisioning of such configurations with Docker.</p>
+
+
+		<hr>
+
+		<ul class="talk-meta">
+			
+				<li class="talk-event">
+					<span>
+						<i class="fa fa-globe" aria-hidden="true"></i>
+						EVENT: &nbsp;
+						
+						<a href="https://www.percona.com/live/europe-amsterdam-2015/sessions/using-docker-fast-and-easy-testing-mariadb-and-maxscale" target="_blank">
+							Percona Live Europe 2015 - Amsterdam
+						</a>
+						
+					</span>
+				</li>
+			
+
+			
+			<li class="talk-location">
+				<span>
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					DATE: &nbsp;
+					<time datetime="2015-09-22T11:20:00&#43;02:00">
+						22 September 2015 - 11:20 &#43;02:00
+					</time>
+				</span>
+			</li>
+			
+
+			
+			<li class="talk-location">
+				<span>
+					<i class="fa fa-location-arrow" aria-hidden="true"></i>
+					LOCATION: &nbsp;
+					<a href="http://maps.google.com/?q=Room%20Winterthur,%20M%c3%b6venpick%20Hotel,%20Piet%20Heinkade%2011,%20Amsterdam,%20Netherlands" target="_blank">
+						Room Winterthur, Mövenpick Hotel, Piet Heinkade 11, Amsterdam, Netherlands
+					</a>
+				</span>
+			</li>
+			
+
+			
+			<li class="talk-slides">
+				<span>
+					<i class="fa fa-slideshare" aria-hidden="true"></i>
+					SLIDES: &nbsp;
+					<a href="https://www.percona.com/live/europe-amsterdam-2015/sites/default/files/slides/PerconaLive.pdf" target="_blank">
+						https://www.percona.com/live/europe-amsterdam-2015/sites/default/files/slides/PerconaLive.pdf
+					</a>
+				</span>
+			</li>
+			
+
+			
+
+			
+			<li class="talk-video">
+				<span>
+					<i class="fa fa-youtube-play" aria-hidden="true"></i>
+					VIDEO: &nbsp;
+					<a href="https://www.youtube.com/watch?v=3q8jzCTI_Sg" target="_blank">
+						https://www.youtube.com/watch?v=3q8jzCTI_Sg
+					</a>
+				</span>
+			</li>
+			
+		</ul>
+
+	</section>
+
+	<hr>
+
+	<footer class="post-footer">
+
+		<section class="f-2">
+			<section class="share">
+				<span>Share:
+					<a class="icon-twitter" href="http://twitter.com/share?text=Using%20Docker%20for%20Fast%20and%20Easy%20Testing%20of%20MariaDB%20and%20MaxScale&url=https%3a%2f%2fwww.tosatto.me%2ftalks%2fusing-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale%2f"
+					onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.tosatto.me%2ftalks%2fusing-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale%2f"
+					onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fwww.tosatto.me%2ftalks%2fusing-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale%2f"
+					onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+						<i class="fa fa-google-plus"></i>
+					</a>
+				</span>
+			</section>
+
+			
+			<span class="f-post-tags"><i class="fa fa-tag"></i>
+				
+				
+				<a class="post-tag post-tag-docker" href="https://www.tosatto.me/tags/docker">docker</a>, <a class="post-tag post-tag-mariadb" href="https://www.tosatto.me/tags/mariadb">mariadb</a>, <a class="post-tag post-tag-maxscale" href="https://www.tosatto.me/tags/maxscale">maxscale</a>, <a class="post-tag post-tag-devops" href="https://www.tosatto.me/tags/devops">devops</a>, <a class="post-tag post-tag-perconalive" href="https://www.tosatto.me/tags/perconalive">perconalive</a>, <a class="post-tag post-tag-talk" href="https://www.tosatto.me/tags/talk">talk</a>
+			</span>
+			
+		</section>
+		        
+	</footer>
+
+</article>
+
+	</div>
+</main>
+<footer id="site-footer">
+    <div class="container">
+        <a href="//github.com/_hilbert_" title="Twitter" target="_blank">
+          <span class="tooltip"><i class="fa fa-twitter"></i></span>
+        </a>
+        <a href="https://www.tosatto.me/index.xml" title="Get the RSS feed" target="_blank">
+          <span class="tooltip"><i class="fa fa-rss"></i></span>
+        </a>
+        <a href="//github.com/atosatto" title="Github" target="_blank">
+          <span class="tooltip"><i class="fa fa-github"></i></span>
+        </a>
+        <section>&copy; <a href="https://www.tosatto.me/">Andrea Tosatto</a> 2016 | All rights reserved</section>
+    </div>
+</footer>
+
+<script type="text/javascript" src="https://www.tosatto.me/js/fittext.js"></script>
+<script type="text/javascript">
+  $(".heading").fitText();
+</script>
+
+
+
+</body>
+</html>

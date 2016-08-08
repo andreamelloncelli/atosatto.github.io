@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mariadb on Andrea Tosatto</title>
+    <link>https://www.tosatto.me/tags/mariadb/</link>
+    <description>Recent content in Mariadb on Andrea Tosatto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Sep 2015 11:20:00 +0200</lastBuildDate>
+    <atom:link href="https://www.tosatto.me/tags/mariadb/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using Docker for Fast and Easy Testing of MariaDB and MaxScale</title>
+      <link>https://www.tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/</link>
+      <pubDate>Tue, 22 Sep 2015 11:20:00 +0200</pubDate>
+      
+      <guid>https://www.tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;The ability to replicate the production environment in an isolated
+testing environment is a key factor for the success of any
+infrastructure (major or minor) component upgrade or replacement.&lt;/p&gt;
+
+&lt;p&gt;Before introducing a new technology and deploying components
+into critical infrastructures, the maintainers must have a very deep
+knowledge of them.&lt;/p&gt;
+
+&lt;p&gt;To reach this expertise it is really important to build and re-deploy
+the testing environment in an easy and fast way.&lt;/p&gt;
+
+&lt;p&gt;In Colt Engine we experienced this situation when we decided to
+migrate all our hosting customers from MySQL 5.1 to MariaDB 10.&lt;/p&gt;
+
+&lt;p&gt;During this presentation we will show how we used Docker
+and docker-compose to replicate our production infrastructure in a testing environment and how we used these technologies to dramatically increase our experience and knowledge around MaxScale.
+This speech will presents several real examples of different MaxScale
+use cases ranging from authentication to read-write splitting and
+about how we automated the provisioning of such configurations with Docker.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
