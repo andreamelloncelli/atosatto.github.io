@@ -1,4 +1,4 @@
-baseurl = "https://www.tosatto.me/"
+baseurl = "http://tosatto.me/"
 languageCode = "en-us"
 title = "Andrea Tosatto"
 theme = "detox"
