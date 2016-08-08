@@ -1,4 +1,4 @@
-REPO="git@github.com:atosatto/tosatto.me.git"
+REPO="git@github.com:atosatto/atosatto.github.io.git"
 DEPLOY_BRANCH="gh-pages"
 
 all:
