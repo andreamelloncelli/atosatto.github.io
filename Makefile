@@ -16,7 +16,7 @@ build:
 	@echo "\033[0;32mBuilding the website...\033[0m"
 	@hugo
 
-deploy:
+deploy: build
 	@echo "\033[0;32mDeploying updates to Github...\033[0m"
 	bin/deploy
 
