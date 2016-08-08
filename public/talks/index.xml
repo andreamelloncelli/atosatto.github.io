@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Andrea Tosatto</title>
+    <link>https://www.tosatto.me/talks/</link>
+    <description>Recent content in Talks on Andrea Tosatto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Jul 2016 19:00:00 +0200</lastBuildDate>
+    <atom:link href="https://www.tosatto.me/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker Engine - From one to hundreds nodes</title>
+      <link>https://www.tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</link>
+      <pubDate>Thu, 07 Jul 2016 19:00:00 +0200</pubDate>
+      
+      <guid>https://www.tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;The recent DockerCon in Seattle has been really amazing.
+Among the many announcements made by the Docker team, for sure the most
+incredible one has been the presentation of the new Docker Engine &amp;ldquo;Swarm mode&amp;rdquo;
+that will be shipped in Docker 1.12.
+This feature has really shocked the container orchestration solutions
+community pushing Docker Swarm from a follower technology to be a potential
+leader of the competition.
+In this talk we will dive into the features of the new Docker Engine &amp;ldquo;Swarm
+mode&amp;rdquo; comparing it to the previous implementation of Docker Swarm.
+We will also talk about tools and tips to test the &amp;ldquo;Swarm Mode&amp;rdquo; at scale.&lt;/p&gt;
+
+&lt;p&gt;La recente DockerCon di Seattle è stata veramente incredibile.
+Tra la diverse nuove funzionalità e demo mostrate dal team di Docker, senza dubbio
+la più incredbile è stata la presentazione dell&amp;rsquo;integrazione tra Docker Swarm
+e il Docker Engine che verrà resa disponibile al pubblico per l&amp;rsquo;imminente rilascio
+di Docker 1.12.
+Questa nuova funzionalità ha mischiato ancora una volta le carte della partita
+in corso fra le differenti soluzioni di &amp;ldquo;container orchestration&amp;rdquo; spingend
+Docker Swarm dall&amp;rsquo;essere una soluzione &amp;ldquo;follower&amp;rdquo; e immatura, all&amp;rsquo;essere
+leader della competizione.
+In questo talk esploreremo le nuove funzionalità introdotte dalla &amp;ldquo;Swarm mode&amp;rdquo;
+del Docker Engine comparandole con le funzionalità offerte fino ad oggi
+da Docker Swarm.
+Parleremo inoltre di strumenti e metodologie per testare agilmente le funzionalità
+della &amp;ldquo;Swarm mode&amp;rdquo; su cluster con decine di nodi.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Milano DevOps - What is DevOps</title>
+      <link>https://www.tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</link>
+      <pubDate>Thu, 23 Jun 2016 19:30:00 +0200</pubDate>
+      
+      <guid>https://www.tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebScale Infrastructures with Kubernetes and Flannel</title>
+      <link>https://www.tosatto.me/talks/webscale-infrastructures-with-kubernetes-and-flannel/</link>
+      <pubDate>Fri, 15 Apr 2016 14:05:00 +0200</pubDate>
+      
+      <guid>https://www.tosatto.me/talks/webscale-infrastructures-with-kubernetes-and-flannel/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;La capacità di rispondere in poche frazioni di secondo alle richieste degli utenti - indipendentemente dal loro numero - è un fattore determinante per il successo dei servizi sul web. Secondo Amazon,  bastano 100 millisecondi di latenza nella risposta per generare una perdita economica di circa l&amp;rsquo;1% sul fatturato. In base alle statistiche di Google AdWords, inoltre, il 2015 ha sancito l’ufficiale superamento del numero di interazioni mobile rispetto a quelle desktop, con la conseguente riduzione della durata media delle sessioni di navigazione web. In uno scenario di questo tipo, la razionalizzazione dell’utilizzo delle risorse hardware e la capacità di scalare rispetto al numero di utenti sono fattori determinanti per il successo del business. In questo talk racconteremo la nostra esperienza di migrazione di soluzioni e-commerce di tipo enterprise in Magento da un’architettura basata su VM tradizionali ad una di tipo software-defined basata su Kubernetes, Flannel e Docker. Discuteremo, quindi, delle reali difficoltà da noi incontrate nel porting su container di soluzioni in produzione e daremo evidenza di come, alla fine di questo lungo viaggio, i nostri sforzi siano stati concretamente premiati dall’aumento di resilienza, affidabilità e automazione della soluzione finale. A supporto della conversazione, mostreremo i risultati dei benchmark da noi condotti per valutare la scalabilità della nuova architettura presentando delle evidenze delle reali capacità di Kubernetes come strumento di orchestrazione di servizi erogati in Docker container. Concluderemo l’intervento presentando il nostro progetto di distribuzione geografica dei nodi master di Kubernetes facendo uso di reti SD-WAN per garantire performance e continuità di servizio della soluzione.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Docker for Fast and Easy Testing of MariaDB and MaxScale</title>
+      <link>https://www.tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/</link>
+      <pubDate>Tue, 22 Sep 2015 11:20:00 +0200</pubDate>
+      
+      <guid>https://www.tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;The ability to replicate the production environment in an isolated
+testing environment is a key factor for the success of any
+infrastructure (major or minor) component upgrade or replacement.&lt;/p&gt;
+
+&lt;p&gt;Before introducing a new technology and deploying components
+into critical infrastructures, the maintainers must have a very deep
+knowledge of them.&lt;/p&gt;
+
+&lt;p&gt;To reach this expertise it is really important to build and re-deploy
+the testing environment in an easy and fast way.&lt;/p&gt;
+
+&lt;p&gt;In Colt Engine we experienced this situation when we decided to
+migrate all our hosting customers from MySQL 5.1 to MariaDB 10.&lt;/p&gt;
+
+&lt;p&gt;During this presentation we will show how we used Docker
+and docker-compose to replicate our production infrastructure in a testing environment and how we used these technologies to dramatically increase our experience and knowledge around MaxScale.
+This speech will presents several real examples of different MaxScale
+use cases ranging from authentication to read-write splitting and
+about how we automated the provisioning of such configurations with Docker.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
