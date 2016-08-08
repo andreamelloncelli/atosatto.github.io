@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://www.tosatto.me/</loc>
+    <lastmod>2016-08-06T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tosatto.me/about/</loc>
+    <lastmod>2016-08-06T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</loc>
+    <lastmod>2016-07-07T19:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</loc>
+    <lastmod>2016-06-23T19:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tosatto.me/talks/webscale-infrastructures-with-kubernetes-and-flannel/</loc>
+    <lastmod>2016-04-15T14:05:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/</loc>
+    <lastmod>2015-09-22T11:20:00+02:00</lastmod>
+  </url>
+  
+</urlset>

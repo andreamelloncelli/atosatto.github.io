@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetup on Andrea Tosatto</title>
+    <link>https://www.tosatto.me/tags/meetup/</link>
+    <description>Recent content in Meetup on Andrea Tosatto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Jul 2016 19:00:00 +0200</lastBuildDate>
+    <atom:link href="https://www.tosatto.me/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker Engine - From one to hundreds nodes</title>
+      <link>https://www.tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</link>
+      <pubDate>Thu, 07 Jul 2016 19:00:00 +0200</pubDate>
+      
+      <guid>https://www.tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;The recent DockerCon in Seattle has been really amazing.
+Among the many announcements made by the Docker team, for sure the most
+incredible one has been the presentation of the new Docker Engine &amp;ldquo;Swarm mode&amp;rdquo;
+that will be shipped in Docker 1.12.
+This feature has really shocked the container orchestration solutions
+community pushing Docker Swarm from a follower technology to be a potential
+leader of the competition.
+In this talk we will dive into the features of the new Docker Engine &amp;ldquo;Swarm
+mode&amp;rdquo; comparing it to the previous implementation of Docker Swarm.
+We will also talk about tools and tips to test the &amp;ldquo;Swarm Mode&amp;rdquo; at scale.&lt;/p&gt;
+
+&lt;p&gt;La recente DockerCon di Seattle è stata veramente incredibile.
+Tra la diverse nuove funzionalità e demo mostrate dal team di Docker, senza dubbio
+la più incredbile è stata la presentazione dell&amp;rsquo;integrazione tra Docker Swarm
+e il Docker Engine che verrà resa disponibile al pubblico per l&amp;rsquo;imminente rilascio
+di Docker 1.12.
+Questa nuova funzionalità ha mischiato ancora una volta le carte della partita
+in corso fra le differenti soluzioni di &amp;ldquo;container orchestration&amp;rdquo; spingend
+Docker Swarm dall&amp;rsquo;essere una soluzione &amp;ldquo;follower&amp;rdquo; e immatura, all&amp;rsquo;essere
+leader della competizione.
+In questo talk esploreremo le nuove funzionalità introdotte dalla &amp;ldquo;Swarm mode&amp;rdquo;
+del Docker Engine comparandole con le funzionalità offerte fino ad oggi
+da Docker Swarm.
+Parleremo inoltre di strumenti e metodologie per testare agilmente le funzionalità
+della &amp;ldquo;Swarm mode&amp;rdquo; su cluster con decine di nodi.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Milano DevOps - What is DevOps</title>
+      <link>https://www.tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</link>
+      <pubDate>Thu, 23 Jun 2016 19:30:00 +0200</pubDate>
+      
+      <guid>https://www.tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

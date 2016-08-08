@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="Andrea Tosatto">
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@https://twitter.com/_hilbert_">
+        <meta name="twitter:creator" content="@https://twitter.com/_hilbert_">
+        <meta name="twitter:domain" content="https://www.tosatto.me/">
+        
+        <meta property="og:site_name" content="Andrea Tosatto">
+        <meta property="og:title" content="Andrea Tosatto">
+        <meta property="og:url" content="https://www.tosatto.me/talks/webscale-infrastructures-with-kubernetes-and-flannel/">
+        <meta property="og:description" content="Thoughts and stories from a f***ing nerd in love with automation">
+        
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="Andrea Tosatto" />
+        <meta property="og:article:published_time" content="2016-04-15T14:05:00&#43;02:00" />
+        
+        <meta name="generator" content="Hugo 0.16" />
+
+        <title>WebScale Infrastructures with Kubernetes and Flannel &middot; Andrea Tosatto </title>
+        <link rel="canonical" href="https://www.tosatto.me/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
+        <link rel="stylesheet" type='text/css' href="https://www.tosatto.me//css/main.css"/>
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://www.tosatto.me//css/simplegrid.css">
+        
+        <link rel="stylesheet" href="https://www.tosatto.me//css/navbar.css">
+        
+        <link rel="stylesheet" href="https://www.tosatto.me//css/custom.css">
+        
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        
+    </head>
+
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+        <div class="container">
+            <a href="https://www.tosatto.me/" alt="Andrea Tosatto">
+              <h1 class="blog-title heading">Andrea Tosatto</h1>
+            </a>
+            <nav class="blog-navigation">
+              <ul>
+              
+              
+                <a class="navigation-item" href="https://www.tosatto.me/blog/">
+                  <li>blog</li>
+                </a>
+              
+                <a class="navigation-item active" href="https://www.tosatto.me/talks/">
+                  <li>talks</li>
+                </a>
+              
+                <a class="navigation-item" href="https://www.tosatto.me/about/">
+                  <li>About</li>
+                </a>
+              
+              </ul>
+            </nav>
+        </div>
+    </header>
+
+<main class="content" role="main">
+	<div class="container">
+		<article class="talk">
+	<header class="post-header">
+		<h3 class="p-post-title">WebScale Infrastructures with Kubernetes and Flannel</h3>
+	</header>
+
+	<section class="post-content">
+		<hr />
+
+<p>La capacità di rispondere in poche frazioni di secondo alle richieste degli utenti - indipendentemente dal loro numero - è un fattore determinante per il successo dei servizi sul web. Secondo Amazon,  bastano 100 millisecondi di latenza nella risposta per generare una perdita economica di circa l&rsquo;1% sul fatturato. In base alle statistiche di Google AdWords, inoltre, il 2015 ha sancito l’ufficiale superamento del numero di interazioni mobile rispetto a quelle desktop, con la conseguente riduzione della durata media delle sessioni di navigazione web. In uno scenario di questo tipo, la razionalizzazione dell’utilizzo delle risorse hardware e la capacità di scalare rispetto al numero di utenti sono fattori determinanti per il successo del business. In questo talk racconteremo la nostra esperienza di migrazione di soluzioni e-commerce di tipo enterprise in Magento da un’architettura basata su VM tradizionali ad una di tipo software-defined basata su Kubernetes, Flannel e Docker. Discuteremo, quindi, delle reali difficoltà da noi incontrate nel porting su container di soluzioni in produzione e daremo evidenza di come, alla fine di questo lungo viaggio, i nostri sforzi siano stati concretamente premiati dall’aumento di resilienza, affidabilità e automazione della soluzione finale. A supporto della conversazione, mostreremo i risultati dei benchmark da noi condotti per valutare la scalabilità della nuova architettura presentando delle evidenze delle reali capacità di Kubernetes come strumento di orchestrazione di servizi erogati in Docker container. Concluderemo l’intervento presentando il nostro progetto di distribuzione geografica dei nodi master di Kubernetes facendo uso di reti SD-WAN per garantire performance e continuità di servizio della soluzione.</p>
+
+
+		<hr>
+
+		<ul class="talk-meta">
+			
+				<li class="talk-event">
+					<span>
+						<i class="fa fa-globe" aria-hidden="true"></i>
+						EVENT: &nbsp;
+						
+						<a href="http://2016.containerday.it/" target="_blank">
+							1st ContainerDay - Verona
+						</a>
+						
+					</span>
+				</li>
+			
+
+			
+			<li class="talk-location">
+				<span>
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					DATE: &nbsp;
+					<time datetime="2016-04-15T14:05:00&#43;02:00">
+						15 April 2016 - 14:05 &#43;02:00
+					</time>
+				</span>
+			</li>
+			
+
+			
+			<li class="talk-location">
+				<span>
+					<i class="fa fa-location-arrow" aria-hidden="true"></i>
+					LOCATION: &nbsp;
+					<a href="http://maps.google.com/?q=Hotel%20San%20Marco,%20Via%20Baldassarre%20Longhena,%2042,%20Verona,%20Italy" target="_blank">
+						Hotel San Marco, Via Baldassarre Longhena, 42, Verona, Italy
+					</a>
+				</span>
+			</li>
+			
+
+			
+			<li class="talk-slides">
+				<span>
+					<i class="fa fa-slideshare" aria-hidden="true"></i>
+					SLIDES: &nbsp;
+					<a href="http://www.slideshare.net/purpleocean/web-scale-infrastructures-with-kubernetes-and-flannel" target="_blank">
+						http://www.slideshare.net/purpleocean/web-scale-infrastructures-with-kubernetes-and-flannel
+					</a>
+				</span>
+			</li>
+			
+
+			
+			<li class="talk-code">
+				<span>
+					<i class="fa fa-code" aria-hidden="true"></i>
+					CODE: &nbsp;
+					<a href="https://github.com/atosatto/presentation-webscalek8s" target="_blank">
+						https://github.com/atosatto/presentation-webscalek8s
+					</a>
+				</span>
+			</li>
+			
+
+			
+			<li class="talk-video">
+				<span>
+					<i class="fa fa-youtube-play" aria-hidden="true"></i>
+					VIDEO: &nbsp;
+					<a href="https://vimeo.com/166626308" target="_blank">
+						https://vimeo.com/166626308
+					</a>
+				</span>
+			</li>
+			
+		</ul>
+
+	</section>
+
+	<hr>
+
+	<footer class="post-footer">
+
+		<section class="f-2">
+			<section class="share">
+				<span>Share:
+					<a class="icon-twitter" href="http://twitter.com/share?text=WebScale%20Infrastructures%20with%20Kubernetes%20and%20Flannel&url=https%3a%2f%2fwww.tosatto.me%2ftalks%2fwebscale-infrastructures-with-kubernetes-and-flannel%2f"
+					onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.tosatto.me%2ftalks%2fwebscale-infrastructures-with-kubernetes-and-flannel%2f"
+					onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fwww.tosatto.me%2ftalks%2fwebscale-infrastructures-with-kubernetes-and-flannel%2f"
+					onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+						<i class="fa fa-google-plus"></i>
+					</a>
+				</span>
+			</section>
+
+			
+			<span class="f-post-tags"><i class="fa fa-tag"></i>
+				
+				
+				<a class="post-tag post-tag-docker" href="https://www.tosatto.me/tags/docker">docker</a>, <a class="post-tag post-tag-kubernetes" href="https://www.tosatto.me/tags/kubernetes">kubernetes</a>, <a class="post-tag post-tag-containerday" href="https://www.tosatto.me/tags/containerday">containerday</a>, <a class="post-tag post-tag-talk" href="https://www.tosatto.me/tags/talk">talk</a>
+			</span>
+			
+		</section>
+		        
+	</footer>
+
+</article>
+
+	</div>
+</main>
+<footer id="site-footer">
+    <div class="container">
+        <a href="//github.com/_hilbert_" title="Twitter" target="_blank">
+          <span class="tooltip"><i class="fa fa-twitter"></i></span>
+        </a>
+        <a href="https://www.tosatto.me/index.xml" title="Get the RSS feed" target="_blank">
+          <span class="tooltip"><i class="fa fa-rss"></i></span>
+        </a>
+        <a href="//github.com/atosatto" title="Github" target="_blank">
+          <span class="tooltip"><i class="fa fa-github"></i></span>
+        </a>
+        <section>&copy; <a href="https://www.tosatto.me/">Andrea Tosatto</a> 2016 | All rights reserved</section>
+    </div>
+</footer>
+
+<script type="text/javascript" src="https://www.tosatto.me/js/fittext.js"></script>
+<script type="text/javascript">
+  $(".heading").fitText();
+</script>
+
+
+
+</body>
+</html>
