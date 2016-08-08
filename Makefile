@@ -33,8 +33,6 @@ init:
 	rm -rf public
 	# Add the gh-pages branch of the repository. It will look like a folder named public
 	git subtree add --prefix=public $(REPO) $(DEPLOY_BRANCH) --squash
-	# Pull down the file we just committed. This helps avoid merge conflicts
-	git subtree pull --prefix=public $(REPO) $(DEPLOY_BRANCH) --allow-unrelated-histories
 
 build:
 	@echo "\033[0;32mBuilding the website...\033[0m"
