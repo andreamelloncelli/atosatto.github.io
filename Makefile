@@ -18,7 +18,7 @@ init:
 	# Create a new orphand branch (no commit history) named gh-pages
 	git checkout --orphan $(DEPLOY_BRANCH)
 	# Unstage all files
-	git rm --cached $(git ls-files)
+	git rm --cached $(shell git ls-files)
 	# Grab one file from the master branch so we can make a commit
 	git checkout master README.md
 	# Add and commit that file
@@ -41,4 +41,4 @@ deploy: build
 	@echo "\033[0;32mDeploying updates to Github...\033[0m"
 	git subtree push --prefix=public $(REPO) $(DEPLOY_BRANCH)
 
-.PHONY: all init deploy build
+.PHONY: all post talk init deploy build
