@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meetup on Andrea Tosatto</title>
-    <link>https://www.tosatto.me/tags/meetup/</link>
+    <link>http://tosatto.me/tags/meetup/</link>
     <description>Recent content in Meetup on Andrea Tosatto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Jul 2016 19:00:00 +0200</lastBuildDate>
-    <atom:link href="https://www.tosatto.me/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tosatto.me/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Docker Engine - From one to hundreds nodes</title>
-      <link>https://www.tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</link>
+      <link>http://tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</link>
       <pubDate>Thu, 07 Jul 2016 19:00:00 +0200</pubDate>
       
-      <guid>https://www.tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</guid>
+      <guid>http://tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</guid>
       <description>&lt;hr /&gt;
 
 &lt;p&gt;The recent DockerCon in Seattle has been really amazing.
@@ -47,10 +47,10 @@ della &amp;ldquo;Swarm mode&amp;rdquo; su cluster con decine di nodi.&lt;/p&gt;
     
     <item>
       <title>Welcome to Milano DevOps - What is DevOps</title>
-      <link>https://www.tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</link>
+      <link>http://tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</link>
       <pubDate>Thu, 23 Jun 2016 19:30:00 +0200</pubDate>
       
-      <guid>https://www.tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</guid>
+      <guid>http://tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</guid>
       <description></description>
     </item>
     
