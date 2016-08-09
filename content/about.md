@@ -12,5 +12,5 @@ Automation fanboy. <br />
 Head in the cloud. <br />
 Loving containers, micro-services, open-source, Golang and Python. <br />
 
-System and Platform Operations at [PurpleOcean](http://www.purpleocean.it).
+System and Platform Operations at [PurpleOcean](http://www.purpleocean.it). <br />
 Infrastructure at [WIT](http://www.witapp.me/).
