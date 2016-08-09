@@ -8,6 +8,12 @@ p {
   font-size: 17px;
 }
 
+/* Active Urls */
+.active {
+  font-weight: bold;
+  background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
+}
+
 /* Tags */
 
 a.post-tag:hover {
