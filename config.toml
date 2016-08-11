@@ -10,33 +10,30 @@ SectionPagesMenu = "main"
 [[menu.main]]
    name = "blog"
    weight = -20
-   identifier = "blog"  # this must match the section name
-   url = "/blog/"
+   identifier = "posts"  # this must match the section name
+   url = "/posts/"
 [[menu.main]]
   name = "talks"
   weight = -10
   identifier = "talks"  # this must match the section name
   url = "/talks/"
-# [[menu.main]]
-#   name = "code"
-#   weight = 30
-#   url = "//github.com/atosatto"
-#   hrefTargetBlank = true  # open link in new tab
 
 [blackfriday]
   hrefTargetBlank = true  # open links in new tab
 
 [permalinks]
   talks = "talks/:slug/"
+  posts = "posts/:slug/"
 
 [taxonomies]
   tag = "tags"
 
 [params]
   author       = "Andrea Tosatto"
-  description  = "Thoughts and stories from a f***ing nerd in love with automation"
+  description  = "Thoughts and stories from a passionate technlogist in love with automation"
   twitter_name = "_hilbert_"
   github_name  = "atosatto"
+  google_analytics = "UA-31188191-2"
   custom_css = [
     "/css/simplegrid.css",  # see http://thisisdallas.github.io/Simple-Grid/
     "/css/navbar.css",

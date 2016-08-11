@@ -18,12 +18,12 @@
         <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
         {{ end }}
         {{ if in .URL "/tags/" }}
-          <style>
-            /* set active the current-tag */
-            .post-tag-{{ .Title | urlize }} {
-              font-weight: bold;
-              background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
-            }
-          </style>
+        <style>
+          /* set active the current-tag */
+          .post-tag-{{ .Title | urlize }} {
+            font-weight: bold;
+            background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
+          }
+        </style>
         {{ end }}
     </head>

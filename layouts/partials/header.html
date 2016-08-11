@@ -3,14 +3,31 @@
             <a href="{{ .Site.BaseURL }}" alt="{{ .Site.Title }}">
               <h1 class="blog-title heading">{{ .Site.Title }}</h1>
             </a>
-            <nav class="blog-navigation">
+            <nav id="site-navigation">
               <ul>
-              {{ $currentNode := . }}
-              {{ range .Site.Menus.main }}
-                <a class="navigation-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">
-                  <li>{{ .Name }}</li>
-                </a>
-              {{ end }}
+                {{ $currentNode := . }}
+                {{ range .Site.Menus.main }}
+                <li><span class="section-name">
+                  <a class="navigation-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">
+                    {{ .Name }}
+                  </a>
+                </span></li>
+                {{ end }}
+                <li><span class="tooltip">
+                  <a href="//twitter.com/{{ .Site.Params.twitter_name }}" title="Twitter" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </span></li>
+                <li><span class="tooltip">
+                  <a href="//github.com/{{ .Site.Params.github_name }}" title="Github" target="_blank">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </span></li>
+                <li><span class="tooltip">
+                  <a href="{{ .Site.BaseURL }}index.xml" title="Get the RSS feed" target="_blank">
+                    <i class="fa fa-rss"></i>
+                  </a>
+                </span></li>
               </ul>
             </nav>
         </div>
