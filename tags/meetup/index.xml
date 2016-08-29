@@ -11,13 +11,11 @@
     
     <item>
       <title>Docker Engine - From one to hundreds nodes</title>
-      <link>http://tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</link>
+      <link>http://tosatto.me/talks/docker-meetup--docker-engine-from-one-to-hundres-nodes/</link>
       <pubDate>Thu, 07 Jul 2016 19:00:00 +0200</pubDate>
       
-      <guid>http://tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</guid>
-      <description>&lt;hr /&gt;
-
-&lt;p&gt;The recent DockerCon in Seattle has been really amazing.
+      <guid>http://tosatto.me/talks/docker-meetup--docker-engine-from-one-to-hundres-nodes/</guid>
+      <description>&lt;p&gt;The recent DockerCon in Seattle has been really amazing.
 Among the many announcements made by the Docker team, for sure the most
 incredible one has been the presentation of the new Docker Engine &amp;ldquo;Swarm mode&amp;rdquo;
 that will be shipped in Docker 1.12.
@@ -47,10 +45,10 @@ della &amp;ldquo;Swarm mode&amp;rdquo; su cluster con decine di nodi.&lt;/p&gt;
     
     <item>
       <title>Welcome to Milano DevOps - What is DevOps</title>
-      <link>http://tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</link>
+      <link>http://tosatto.me/talks/milano-devops--what-is-devops/</link>
       <pubDate>Thu, 23 Jun 2016 19:30:00 +0200</pubDate>
       
-      <guid>http://tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</guid>
+      <guid>http://tosatto.me/talks/milano-devops--what-is-devops/</guid>
       <description></description>
     </item>
     

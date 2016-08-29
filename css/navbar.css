@@ -1,13 +1,13 @@
 /* Custom navigation bar */
 
-.blog-navigation {
+#site-navigation {
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #b3b3b3;
   font-size: 100%;
 }
 
-nav.blog-navigation ul {
+#site-navigation ul {
   list-style: none;
   display: -webkit-inline-flex;
   display: -moz-inline-flex;
@@ -17,11 +17,10 @@ nav.blog-navigation ul {
   padding-left: 0px;
 }
 
-nav.blog-navigation ul a {
-  margin-left: 6px;
-  margin-right: 6px;
+#site-navigation ul span {
+  padding: 0.5em;
 }
 
-nav.blog-navigation ul a:hover {
+#site-navigation ul a:hover {
   border-bottom: 1px solid;
 }

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Andrea Tosatto</title>
+    <link>http://tosatto.me/posts/</link>
+    <description>Recent content in Posts on Andrea Tosatto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Aug 2016 23:30:35 +0200</lastBuildDate>
+    <atom:link href="http://tosatto.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day #1</title>
+      <link>http://tosatto.me/posts/day-one/</link>
+      <pubDate>Mon, 29 Aug 2016 23:30:35 +0200</pubDate>
+      
+      <guid>http://tosatto.me/posts/day-one/</guid>
+      <description>&lt;p&gt;Today is &lt;strong&gt;&lt;em&gt;the day one&lt;/em&gt;&lt;/strong&gt;: the day in which I&amp;rsquo;m finally kickstarting my personal
+website. &lt;br /&gt;
+The day zero lasts for many years: looking at its whois records I discovered that
+I bought this domain name in the far 2011.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ whois tosatto.me
+Domain Name: TOSATTO.ME
+WHOIS Server:
+Referral URL: www.namecheap.com
+Updated Date: 2016-08-19T22:50:17Z
+Creation Date: 2011-08-19T14:37:20Z
+Registry Expiry Date: 2017-08-19T14:37:20Z
+# [...]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At that time I was 21 years old, still at University, spending most of the time hacking
+exams and code with my incredible colleagues and wondering what I would have been
+in the future.&lt;/p&gt;
+
+&lt;p&gt;Then it came 2012, my third year of University. I was deep in programming languages
+and concurrency theory and writing my bachelor thesis,
+&lt;em&gt;&amp;ldquo;Type for Leak Detection in a Session-Oriented Functional Programming Language&amp;rdquo;&lt;/em&gt;.
+I was really having fun with such kind of strange topics.
+So much that it finally came the first opportunity to use the domain
+name I had bought the year before without never using it:
+I needed to publish somewhere on the web my thesis in order to let to some external
+reviewers to read it and, hopefully, support my candidature for a student grants
+to cover the expenses to attend &lt;em&gt;&lt;a href=&#34;http://popl.mpi-sws.org/2013/&#34; target=&#34;_blank&#34;&gt;POPL&lt;/a&gt;&lt;/em&gt;,
+a very huge conference on programming languages theory in Rome.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately I didn&amp;rsquo;t won the prize so I&amp;rsquo;ve never been to POPL, but this
+is what my website was looking like at that time.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://tosatto.me/img/posts/day-one/tosatto.me.png&#34; alt=&#34;tosatto.me - bachelor degree dissertation&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        tosatto.me - bachelor degree dissertation
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Yes. It was utterly ugly, but it was temporary, just for few weeks: all
+the important informations where there, included a super-short presentation of
+my work. These were my plans.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, my website has been exactly like that until now.&lt;/p&gt;
+
+&lt;p&gt;Now. It&amp;rsquo;s &lt;strong&gt;2016&lt;/strong&gt;. I still don&amp;rsquo;t know what I will be in my future like in 2011.&lt;br /&gt;
+But finally I&amp;rsquo;ve got a real brand new website!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Welcome!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

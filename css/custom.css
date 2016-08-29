@@ -8,6 +8,19 @@ p {
   font-size: 17px;
 }
 
+u {
+  text-decoration: underline;
+}
+
+/* Figure */
+figcaption {
+  text-align: center;
+}
+
+figcaption p {
+  font-style: italic;
+}
+
 /* Active Urls */
 .active {
   font-weight: bold;

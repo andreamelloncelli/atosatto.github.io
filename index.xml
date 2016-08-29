@@ -6,8 +6,78 @@
     <description>Recent content on Andrea Tosatto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Aug 2016 16:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 29 Aug 2016 23:30:35 +0200</lastBuildDate>
     <atom:link href="http://tosatto.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day #1</title>
+      <link>http://tosatto.me/posts/day-one/</link>
+      <pubDate>Mon, 29 Aug 2016 23:30:35 +0200</pubDate>
+      
+      <guid>http://tosatto.me/posts/day-one/</guid>
+      <description>&lt;p&gt;Today is &lt;strong&gt;&lt;em&gt;the day one&lt;/em&gt;&lt;/strong&gt;: the day in which I&amp;rsquo;m finally kickstarting my personal
+website. &lt;br /&gt;
+The day zero lasts for many years: looking at its whois records I discovered that
+I bought this domain name in the far 2011.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ whois tosatto.me
+Domain Name: TOSATTO.ME
+WHOIS Server:
+Referral URL: www.namecheap.com
+Updated Date: 2016-08-19T22:50:17Z
+Creation Date: 2011-08-19T14:37:20Z
+Registry Expiry Date: 2017-08-19T14:37:20Z
+# [...]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At that time I was 21 years old, still at University, spending most of the time hacking
+exams and code with my incredible colleagues and wondering what I would have been
+in the future.&lt;/p&gt;
+
+&lt;p&gt;Then it came 2012, my third year of University. I was deep in programming languages
+and concurrency theory and writing my bachelor thesis,
+&lt;em&gt;&amp;ldquo;Type for Leak Detection in a Session-Oriented Functional Programming Language&amp;rdquo;&lt;/em&gt;.
+I was really having fun with such kind of strange topics.
+So much that it finally came the first opportunity to use the domain
+name I had bought the year before without never using it:
+I needed to publish somewhere on the web my thesis in order to let to some external
+reviewers to read it and, hopefully, support my candidature for a student grants
+to cover the expenses to attend &lt;em&gt;&lt;a href=&#34;http://popl.mpi-sws.org/2013/&#34; target=&#34;_blank&#34;&gt;POPL&lt;/a&gt;&lt;/em&gt;,
+a very huge conference on programming languages theory in Rome.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately I didn&amp;rsquo;t won the prize so I&amp;rsquo;ve never been to POPL, but this
+is what my website was looking like at that time.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://tosatto.me/img/posts/day-one/tosatto.me.png&#34; alt=&#34;tosatto.me - bachelor degree dissertation&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        tosatto.me - bachelor degree dissertation
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Yes. It was utterly ugly, but it was temporary, just for few weeks: all
+the important informations where there, included a super-short presentation of
+my work. These were my plans.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, my website has been exactly like that until now.&lt;/p&gt;
+
+&lt;p&gt;Now. It&amp;rsquo;s &lt;strong&gt;2016&lt;/strong&gt;. I still don&amp;rsquo;t know what I will be in my future like in 2011.&lt;br /&gt;
+But finally I&amp;rsquo;ve got a real brand new website!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Welcome!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -28,13 +98,11 @@ Infrastructure at &lt;a href=&#34;http://www.witapp.me/&#34; target=&#34;_blank&
     
     <item>
       <title>Docker Engine - From one to hundreds nodes</title>
-      <link>http://tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</link>
+      <link>http://tosatto.me/talks/docker-meetup--docker-engine-from-one-to-hundres-nodes/</link>
       <pubDate>Thu, 07 Jul 2016 19:00:00 +0200</pubDate>
       
-      <guid>http://tosatto.me/talks/docker-engine---from-one-to-hundreds-nodes/</guid>
-      <description>&lt;hr /&gt;
-
-&lt;p&gt;The recent DockerCon in Seattle has been really amazing.
+      <guid>http://tosatto.me/talks/docker-meetup--docker-engine-from-one-to-hundres-nodes/</guid>
+      <description>&lt;p&gt;The recent DockerCon in Seattle has been really amazing.
 Among the many announcements made by the Docker team, for sure the most
 incredible one has been the presentation of the new Docker Engine &amp;ldquo;Swarm mode&amp;rdquo;
 that will be shipped in Docker 1.12.
@@ -64,34 +132,30 @@ della &amp;ldquo;Swarm mode&amp;rdquo; su cluster con decine di nodi.&lt;/p&gt;
     
     <item>
       <title>Welcome to Milano DevOps - What is DevOps</title>
-      <link>http://tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</link>
+      <link>http://tosatto.me/talks/milano-devops--what-is-devops/</link>
       <pubDate>Thu, 23 Jun 2016 19:30:00 +0200</pubDate>
       
-      <guid>http://tosatto.me/talks/welcome-to-milano-devops---what-is-devops/</guid>
+      <guid>http://tosatto.me/talks/milano-devops--what-is-devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WebScale Infrastructures with Kubernetes and Flannel</title>
-      <link>http://tosatto.me/talks/webscale-infrastructures-with-kubernetes-and-flannel/</link>
+      <link>http://tosatto.me/talks/container-day--webscale-infrastructures-with-kubernetes-and-flannel/</link>
       <pubDate>Fri, 15 Apr 2016 14:05:00 +0200</pubDate>
       
-      <guid>http://tosatto.me/talks/webscale-infrastructures-with-kubernetes-and-flannel/</guid>
-      <description>&lt;hr /&gt;
-
-&lt;p&gt;La capacità di rispondere in poche frazioni di secondo alle richieste degli utenti - indipendentemente dal loro numero - è un fattore determinante per il successo dei servizi sul web. Secondo Amazon,  bastano 100 millisecondi di latenza nella risposta per generare una perdita economica di circa l&amp;rsquo;1% sul fatturato. In base alle statistiche di Google AdWords, inoltre, il 2015 ha sancito l’ufficiale superamento del numero di interazioni mobile rispetto a quelle desktop, con la conseguente riduzione della durata media delle sessioni di navigazione web. In uno scenario di questo tipo, la razionalizzazione dell’utilizzo delle risorse hardware e la capacità di scalare rispetto al numero di utenti sono fattori determinanti per il successo del business. In questo talk racconteremo la nostra esperienza di migrazione di soluzioni e-commerce di tipo enterprise in Magento da un’architettura basata su VM tradizionali ad una di tipo software-defined basata su Kubernetes, Flannel e Docker. Discuteremo, quindi, delle reali difficoltà da noi incontrate nel porting su container di soluzioni in produzione e daremo evidenza di come, alla fine di questo lungo viaggio, i nostri sforzi siano stati concretamente premiati dall’aumento di resilienza, affidabilità e automazione della soluzione finale. A supporto della conversazione, mostreremo i risultati dei benchmark da noi condotti per valutare la scalabilità della nuova architettura presentando delle evidenze delle reali capacità di Kubernetes come strumento di orchestrazione di servizi erogati in Docker container. Concluderemo l’intervento presentando il nostro progetto di distribuzione geografica dei nodi master di Kubernetes facendo uso di reti SD-WAN per garantire performance e continuità di servizio della soluzione.&lt;/p&gt;
+      <guid>http://tosatto.me/talks/container-day--webscale-infrastructures-with-kubernetes-and-flannel/</guid>
+      <description>&lt;p&gt;La capacità di rispondere in poche frazioni di secondo alle richieste degli utenti - indipendentemente dal loro numero - è un fattore determinante per il successo dei servizi sul web. Secondo Amazon,  bastano 100 millisecondi di latenza nella risposta per generare una perdita economica di circa l&amp;rsquo;1% sul fatturato. In base alle statistiche di Google AdWords, inoltre, il 2015 ha sancito l’ufficiale superamento del numero di interazioni mobile rispetto a quelle desktop, con la conseguente riduzione della durata media delle sessioni di navigazione web. In uno scenario di questo tipo, la razionalizzazione dell’utilizzo delle risorse hardware e la capacità di scalare rispetto al numero di utenti sono fattori determinanti per il successo del business. In questo talk racconteremo la nostra esperienza di migrazione di soluzioni e-commerce di tipo enterprise in Magento da un’architettura basata su VM tradizionali ad una di tipo software-defined basata su Kubernetes, Flannel e Docker. Discuteremo, quindi, delle reali difficoltà da noi incontrate nel porting su container di soluzioni in produzione e daremo evidenza di come, alla fine di questo lungo viaggio, i nostri sforzi siano stati concretamente premiati dall’aumento di resilienza, affidabilità e automazione della soluzione finale. A supporto della conversazione, mostreremo i risultati dei benchmark da noi condotti per valutare la scalabilità della nuova architettura presentando delle evidenze delle reali capacità di Kubernetes come strumento di orchestrazione di servizi erogati in Docker container. Concluderemo l’intervento presentando il nostro progetto di distribuzione geografica dei nodi master di Kubernetes facendo uso di reti SD-WAN per garantire performance e continuità di servizio della soluzione.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Using Docker for Fast and Easy Testing of MariaDB and MaxScale</title>
-      <link>http://tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/</link>
+      <link>http://tosatto.me/talks/percona-live--docker-fast-and-easy-testing-of-mariadb-and-maxscale/</link>
       <pubDate>Tue, 22 Sep 2015 11:20:00 +0200</pubDate>
       
-      <guid>http://tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/</guid>
-      <description>&lt;hr /&gt;
-
-&lt;p&gt;The ability to replicate the production environment in an isolated
+      <guid>http://tosatto.me/talks/percona-live--docker-fast-and-easy-testing-of-mariadb-and-maxscale/</guid>
+      <description>&lt;p&gt;The ability to replicate the production environment in an isolated
 testing environment is a key factor for the success of any
 infrastructure (major or minor) component upgrade or replacement.&lt;/p&gt;
 

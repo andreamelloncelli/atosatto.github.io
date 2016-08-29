@@ -11,13 +11,11 @@
     
     <item>
       <title>Using Docker for Fast and Easy Testing of MariaDB and MaxScale</title>
-      <link>http://tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/</link>
+      <link>http://tosatto.me/talks/percona-live--docker-fast-and-easy-testing-of-mariadb-and-maxscale/</link>
       <pubDate>Tue, 22 Sep 2015 11:20:00 +0200</pubDate>
       
-      <guid>http://tosatto.me/talks/using-docker-for-fast-and-easy-testing-of-mariadb-and-maxscale/</guid>
-      <description>&lt;hr /&gt;
-
-&lt;p&gt;The ability to replicate the production environment in an isolated
+      <guid>http://tosatto.me/talks/percona-live--docker-fast-and-easy-testing-of-mariadb-and-maxscale/</guid>
+      <description>&lt;p&gt;The ability to replicate the production environment in an isolated
 testing environment is a key factor for the success of any
 infrastructure (major or minor) component upgrade or replacement.&lt;/p&gt;
 
