@@ -16,6 +16,11 @@ hr {
   margin: 2em;
 }
 
+pre {
+    color: white;
+    background-color: white;
+}
+
 /* Figure */
 figcaption {
   text-align: center;
