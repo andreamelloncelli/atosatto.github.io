@@ -12,6 +12,10 @@ u {
   text-decoration: underline;
 }
 
+hr {
+  margin: 2em;
+}
+
 /* Figure */
 figcaption {
   text-align: center;
@@ -63,8 +67,8 @@ ul.talk-meta i {
 }
 
 article {
-    margin-top: 7em;
-    margin-bottom: 7em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 @media (max-width: 800px){
@@ -73,8 +77,8 @@ article {
   }
 
   article {
-      margin-top: 5em !important;
-      margin-bottom: 5em !important;
+      margin-top: 2em !important;
+      margin-bottom: 2em !important;
   }
 }
 
