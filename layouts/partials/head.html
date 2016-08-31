@@ -10,13 +10,10 @@
         <link rel="stylesheet" type='text/css' href="{{ .Site.BaseURL }}/css/main.css"/>
         <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700" rel="stylesheet" type="text/css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
         <link rel='shortcut icon' type='image/x-icon' href='{{ .Site.BaseURL }}/favicon.ico' />
         {{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
-        {{ end }}
-        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-        {{ range .Site.Params.custom_js }}
-        <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
         {{ end }}
         {{ if in .URL "/tags/" }}
         <style>

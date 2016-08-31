@@ -37,5 +37,9 @@ SectionPagesMenu = "main"
   custom_css = [
     "/css/simplegrid.css",  # see http://thisisdallas.github.io/Simple-Grid/
     "/css/navbar.css",
-    "/css/custom.css"
+    "/css/custom.css",
+    "/css/highlight.monokai-sublime.css"
   ] # relative to public directory
+  custom_js = [
+    "js/highlight.go.min.js"
+  ]
